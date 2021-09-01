@@ -1,0 +1,16 @@
+{
+    "extends": ["google", "prettier"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "rules": {
+        "new-cap": "off",
+        "require-jsdoc": "off"
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2020": true
+    }
+}
